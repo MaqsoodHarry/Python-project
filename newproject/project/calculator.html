@@ -1,0 +1,33 @@
+{% include "header.html" %}
+
+<h3>Calculator</h3>
+<div class="form">
+    <form action="#" method="POST">
+      {% csrf_token %}
+      <div class="form-group">
+      <input type="text" id="name" name="value_1" required placeholder="value_1">
+      </div>
+
+
+      <div class="opr">
+      <select name="opr" id="" class="form-group" name="opr">
+          <option value="+">+</option>
+          <option value="-">-</option>
+          <option value="*">*</option>
+          <option value="/">/</option>
+          <option value="%">%</option>
+      </select>
+    </div>
+      <div class="form-group">
+        <input type="text"  class="form-group" required placeholder="value_2" name="value_2">
+    </div>
+    <button type="submit">Calculator</button>
+    <br>
+    <br>
+    <br>
+    <input type="text" value="{{c}}" class="form-group"  placeholder="result">
+    
+    </form>
+  </div>
+
+{% include "footer.html" %}

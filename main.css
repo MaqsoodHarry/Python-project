@@ -1,0 +1,338 @@
+*{
+    background-color: black;
+    color: white;
+}
+
+/* ==================header style=============== */
+
+.nav{
+    display: flex;
+}
+.logo img{
+    width: 80px;
+    margin: 20px;
+}
+ul{
+    display: flex;
+    margin-left: 250px;
+}
+li{
+    
+    list-style: none;
+}
+li a{
+    display: block;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: white;
+    padding: 5px 5px;
+    margin: 20px;
+}
+
+header .active a{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+
+li :hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    /* color: rgb(245, 214, 151); */
+}
+
+/* =================main body style======================== */
+
+
+
+.container{
+    display:flex;
+    width: 100%;
+    height: 400px;
+    background-color: 2px solid rgb(221, 235, 30);
+}
+h1{
+    color: rgb(245, 214, 151);
+    font-family: 'Times New Roman', Times, serif;
+}
+.item{
+    width: 100vb;
+    /* border: 2px solid red;
+    background-color:rgb(255, 255, 255); */
+    margin: 10px;
+    padding: 20px;
+}
+#item-1{
+    margin: 20px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 30px;
+}
+#item-2 img{
+    width: 500px;
+    height: 300px;
+    margin: 20px;
+}
+
+
+/* ===========================Services====================== */
+
+#hs{
+    color: rgb(245, 214, 151);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 55px;
+}
+
+.services{
+    display:flex;
+    width: 100%;
+    height: 550px;
+    background-color: 2px solid rgb(221, 235, 30);
+}
+.service{
+    width: 100vb;
+    /* border: 2px solid red;
+    background-color:rgb(255, 255, 255); */
+    margin: 10px;
+    padding: 20px;
+}
+#service-1 img{
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    font-size: 20px;
+}
+#service-2 img{
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    font-size: 20px;
+}
+#service-3 img{
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    font-size: 20px;
+}
+
+/* =========================Team section====================== */
+#tm{
+    color: rgb(245, 214, 151);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 55px;
+}
+
+.Team{
+    display:flex;
+    width: 100%;
+    height: 400px;
+    background-color: 2px solid rgb(221, 235, 30);
+}
+.teams{
+    width: 100vb;
+    /* border: 2px solid red;
+    background-color:rgb(255, 255, 255); */
+    margin: 10px;
+    padding: 20px;
+}
+
+#Team-1 img{
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    font-size: 20px;
+}
+#Team-2 img{
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    font-size: 20px;
+}
+#Team-3 img{
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    font-size: 20px;
+}
+#Team-4 img{
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    font-size: 20px;
+}
+#Team-5 img{
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    font-size: 20px;
+}
+#Team-6 img{
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    font-size: 20px;
+}
+
+
+
+/* ===========================Blog Section====================== */
+
+#bh{
+    
+    color: rgb(245, 214, 151);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 55px;
+}
+
+.blog{
+    display:flex;
+    width: 100%;
+    height: 550px;
+    background-color: 2px solid rgb(221, 235, 30);
+}
+.blogs{
+    width: 100vb;
+    /* border: 2px solid red;
+    background-color:rgb(255, 255, 255); */
+    margin: 10px;
+    padding: 20px;
+}
+button{
+    background-color:rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    align-items: center;
+    margin: 10px;
+    padding: 5px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#blogs-1 img{
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    font-size: 20px;
+}
+#blogs-2 img{
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    font-size: 20px;
+}
+#blogs-3 img{
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    font-size: 20px;
+}
+#blogs-4 img{
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    font-size: 20px;
+}
+#blogs-5 img{
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    font-size: 20px;
+}
+#blogs-6 img{
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    font-size: 20px;
+}
+
+/* ====================Contact Form====================== */
+
+.form {
+   max-width: 800px;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 40px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input
+   {
+    width: 90%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+    color: black;
+  }
+
+  textarea{
+    width: 90%;
+    height: 300px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+    color: black;
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 90%;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: rgb(69, 161, 73);
+  }  
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 55px;
+    text-align: center;
+    color: #f5d697;
+}
+.footer{
+    text-align: center;
+    border: 2px solid #f5d697;
+    margin-top: 40px;
+    border-radius: 20px;
+    background-color: #f5d697;
+}
+.footer h4{
+    background-color: #f5d697;
+    color: rgb(38, 141, 231);
+
+}
+
+
+
+
+.opr
+{
+ width: 90%;
+ padding: 8px;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ background-color: white;
+ color: black;
+}
